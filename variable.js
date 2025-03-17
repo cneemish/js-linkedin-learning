@@ -1,0 +1,10 @@
+    var x = 10;
+    console.log (x);
+    var whereAMI = "Virar";
+    console.log(whereAMI);
+    whereAMI = "Pune";
+    console.log(whereAMI);
+    var isTrue = true;
+    console.log(isTrue);
+    var name1 = 'John', name2 ='Ron', name3 ='Don', name4='Shaun';
+console.log(name1, name2, name3, name4);
