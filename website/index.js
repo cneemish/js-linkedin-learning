@@ -8,7 +8,7 @@
 document.getElementById("paragraphOne").textContent = `This is a paragraph`; */
 
 
-var answer = window.prompt("Type Yes, No, Maybe");
+//var answer = window.prompt("Type Yes, No, Maybe");
 /* if (answer === "Yes") {
     console.log(`You typed Yes`);  
 } else if(answer ==="No") {
@@ -19,7 +19,7 @@ var answer = window.prompt("Type Yes, No, Maybe");
     console.log('Something else?')
 } */
 
-switch (answer) {
+/* witch (answer) {
     case "Yes":
         console.log(`You typed Yes`);
         break;
@@ -32,4 +32,32 @@ switch (answer) {
     default:
         console.log('Something else?')
         break;
+} */
+
+var pageName = [
+    "Home",
+    "About Us",
+    "Contact Us",
+    "Products",
+    "Blogs",
+    "My Website",
+    "WorkPage",
+    "SubmitPage"
+];
+
+/* for (i = 0; i< pageName.length; i ++){
+    if (document.title === pageName[i]){
+        console.log("We are here:" + pageName[i])
+        break;
+    } else {
+        console.log("We are not here:" + pageName[i])
+    }
+}
+ */
+console.log(pageName)
+for (var pa in pageName ){
+    if (pageName.hasOwnProperty){
+        console.log(pa, pageName[pa]);
+    }
+    
 }
